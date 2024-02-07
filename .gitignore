@@ -3,12 +3,12 @@
 .idea/
 
 # 忽略依赖管理工具生成的目录
-/node_modules/
-/bower_components/
+*/node_modules/
+*/bower_components/
 
 # 忽略编译生成的文件和目录
-/dist/
-/build/
+*/dist/
+*/build/
 
 # 忽略临时文件
 .tmp/
@@ -23,10 +23,6 @@
 .env.local
 .env.*.local
 
-# 忽略构建工具生成的配置文件
-webpack.config.js
-rollup.config.js
-
 # 忽略编辑器配置文件
 .editorconfig
 .eslintrc
@@ -40,12 +36,6 @@ rollup.config.js
 *.bak
 *.swp
 *.tmp
-
-# 忽略图标和图片生成的文件
-*.ico
-*.png
-*.jpg
-*.jpeg
 
 # 忽略文档和API生成的文件
 /doc/
